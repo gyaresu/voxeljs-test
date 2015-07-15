@@ -1,0 +1,28 @@
+{
+  "name": "voxeljs-test",
+  "version": "1.0.0",
+  "description": "http://voxeljs.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o bundle.js",
+    "start": "echo \"open localhost:8080/\" && ./node_modules/.bin/browservefy index.js 8080 -- -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyaresu/voxeljs-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gyaresu/voxeljs-test/issues"
+  },
+  "homepage": "https://github.com/gyaresu/voxeljs-test#readme",
+  "devDependencies": {
+    "browservefy": "0.0.10",
+    "voxel-engine": "^0.20.2",
+    "voxel-player": "^0.1.0",
+    "voxel-snow": "^0.2.0"
+  }
+}
